@@ -78,6 +78,7 @@ gyro1.startCalibration();
 void usercontrol( void ) {
   Motor7.setStopping(hold); 
   // User control code here, inside the loop
+  //this is a comment
   Controller1.ButtonRight.pressed(MacroStack);
   while (1) {
       while (true) {  
